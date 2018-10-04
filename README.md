@@ -11,7 +11,7 @@ You manage you account [here](https://www.rwth-aachen.de/selfservice).
 
 ## Run Jobs
 
-1. Establish VPN connection to Aachen: [here for details](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
+1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
 2. Login with your new RWTH Aachen account: 
 
 ```bash
