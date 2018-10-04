@@ -14,13 +14,7 @@
 2. Login with your new RWTH Aachen account: 
 
 ```bash
-ssh -l <Your User ID> cluster.rz.rwth-aachen.de
-```
-
-or 
-
-```bash
-ssh -l <Your User ID> login.hpc.itc.rwth-aachen.de
+ssh <Your User ID>@login.hpc.itc.rwth-aachen.de
 ```
 
 3. You need to specify the UM project in your job scripts:
