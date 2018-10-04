@@ -10,8 +10,14 @@
 ## Run Jobs
 
 1. Establish VPN connection to Aachen: [here for details](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
-2. Login: 
+2. Login with your new RWTH Aachen account: 
 
 ```bash
 ssh -l <Your User ID> cluster.rz.rwth-aachen.de
+```
+
+or 
+
+```bash
+ssh -l <Your User ID> login.hpc.itc.rwth-aachen.de
 ```
