@@ -23,3 +23,9 @@ or
 ```bash
 ssh -l <Your User ID> login.hpc.itc.rwth-aachen.de
 ```
+
+3. You need to specify the UM project in your job scripts:
+
+```{bash}
+BSUB -P um_dke
+```
