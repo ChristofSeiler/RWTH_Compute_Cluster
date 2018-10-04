@@ -7,6 +7,8 @@
 3. Following instruction in Aachen email to activate and create the cluster account
 4. Reply to Maastricht email with newly created User ID and wait for reply
 
+You manage you account [here](https://www.rwth-aachen.de/selfservice).
+
 ## Run Jobs
 
 1. Establish VPN connection to Aachen: [here for details](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
