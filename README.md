@@ -1,6 +1,6 @@
 # Maastricht Computing
 
-## Get Access
+## Get Access to the Cluster
 
 1. Request a DKE cluster account [here](https://fse.maastrichtuniversity.nl/lo-fse/site/requests/request-dke-cluster-access/)
 2. You will recieve one email from Aachen and one from Maastricht
@@ -8,7 +8,7 @@
 4. Reply to Maastricht email with newly created User ID and wait for reply
 5. Go to your Aachen account [here](https://www.rwth-aachen.de/selfservice), select the `Accounts and Passwords` page, and set a new password for `	Hochleistungsrechnen RWTH Aachen` and `	WLAN/VPN` services
 
-## Run Jobs
+## Login to the Cluster
 
 1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
 2. Login with your new RWTH Aachen account: 
@@ -17,7 +17,10 @@
 ssh <Your User ID>@login.hpc.itc.rwth-aachen.de
 ```
 
-3. You need to specify the UM project in your job scripts:
+## Using the Cluster
+
+* Check manual for commands [here](https://doc.itc.rwth-aachen.de/display/CC/Using+the+Batch+System)
+* You need to specify the UM project in your job scripts:
 
 ```{bash}
 BSUB -P um_dke
