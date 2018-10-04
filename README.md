@@ -7,7 +7,7 @@
 3. Following instruction in Aachen email to activate and create the cluster account
 4. Reply to Maastricht email with newly created User ID and wait for reply
 
-You manage you account [here](https://www.rwth-aachen.de/selfservice).
+You can manage you account [here](https://www.rwth-aachen.de/selfservice).
 
 ## Run Jobs
 
