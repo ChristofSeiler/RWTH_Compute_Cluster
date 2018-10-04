@@ -6,8 +6,7 @@
 2. You will recieve one email from Aachen and one from Maastricht
 3. Following instruction in Aachen email to activate and create the cluster account
 4. Reply to Maastricht email with newly created User ID and wait for reply
-
-You can manage you account [here](https://www.rwth-aachen.de/selfservice).
+5. Go to your Aachen account [here](https://www.rwth-aachen.de/selfservice) and set passwords for in `Accounts and Passwords` for `Hochleistungsrechnen RWTH Aachen` and `WLAN/VPN`
 
 ## Run Jobs
 
