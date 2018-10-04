@@ -9,7 +9,8 @@
 
 ## Run Jobs
 
-Login: 
+1. Establish VPN connection to Aachen
+2. Login: 
 
 ```bash
 ssh -l <Your User ID> cluster.rz.rwth-aachen.de
