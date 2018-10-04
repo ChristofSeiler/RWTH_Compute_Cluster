@@ -9,7 +9,7 @@
 
 ## Run Jobs
 
-1. Establish VPN connection to Aachen
+1. Establish VPN connection to Aachen: [doc](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
 2. Login: 
 
 ```bash
