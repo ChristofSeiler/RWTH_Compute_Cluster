@@ -10,7 +10,7 @@
 
 ## Login to the Cluster
 
-1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/pages/viewpage.action?pageId=3475772)
+1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/display/VPN/VPN+%28ab+MacOS+10.7%29+AnyConnect)
 2. Login with your new RWTH Aachen account: 
 
 ```bash
