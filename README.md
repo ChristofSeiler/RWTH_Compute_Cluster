@@ -25,3 +25,8 @@ ssh <Your User ID>@login.hpc.itc.rwth-aachen.de
 ```{bash}
 BSUB -P um_dke
 ```
+
+## Storage
+
+* Backed up: `$HOME`
+* Not backed up: `$WORK` and `$HPCWORK`
