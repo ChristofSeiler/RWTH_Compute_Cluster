@@ -1,4 +1,4 @@
-# Maastricht Computing
+# RWTH Compute Cluster
 
 ## Get Access
 
