@@ -61,7 +61,7 @@ echo "export STUDIO_VERSION=$RSTUDIO_VERSION" >> .zprofile
 echo 'export PATH=$HOME/${RSTUDIO_VERSION}/usr/lib/rstudio-server/bin/pandoc:$PATH' >> .zprofile
 ```
 
-Now clone the repository with and submit script. This example should take about 30 min. It will request one node with 8 cores for 1 hour.
+Now clone a repository and submit a job script. This example should take about 30 min. It will request one node with 8 cores for 1 hour.
 
 ```{bash}
 git clone https://github.com/ChristofSeiler/blish_cytoeffect_tutorial.git
