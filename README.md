@@ -48,7 +48,20 @@ squeue -u YOUR_USERNAME
 
 ## Example
 
-This example should take about 30 min. It will request one node with 8 cores for 1 hour.
+First install RStudio. This will allow you to knit Rmd files.
+
+```{bash}
+RSTUDIO_VERSION=rstudio-server-rhel-1.2.1335-x86_64
+mkdir $RSTUDIO_VERSION
+cd $RSTUDIO_VERSION
+wget https://download2.rstudio.org/server/centos6/x86_64/${RSTUDIO_VERSION}.rpm
+rpm2cpio ${RSTUDIO_VERSION}.rpm | cpio -idmv
+cd ..
+echo "export STUDIO_VERSION=$RSTUDIO_VERSION" >> .zprofile
+echo 'export PATH=$HOME/${RSTUDIO_VERSION}/usr/lib/rstudio-server/bin/pandoc:$PATH' >> .zprofile
+```
+
+Now clone the repository with and submit script. This example should take about 30 min. It will request one node with 8 cores for 1 hour.
 
 ```{bash}
 git clone https://github.com/ChristofSeiler/blish_cytoeffect_tutorial.git
