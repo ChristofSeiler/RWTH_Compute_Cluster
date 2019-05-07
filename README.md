@@ -34,7 +34,7 @@ ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 ```
 
-* To submit the script to the scheduler:
+* Submit the script to the scheduler:
 
 ```{bash}
 sbatch submit.sh
