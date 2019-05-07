@@ -14,16 +14,16 @@
 2. Login with your new RWTH Aachen account: 
 
 ```bash
-ssh <Your User ID>@login.hpc.itc.rwth-aachen.de
+ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 ```
 
 ## Usage
 
 * Check manual for commands [here](https://doc.itc.rwth-aachen.de/display/CC/Using+the+Batch+System)
-* You need to specify the UM project in your job scripts:
+* You need to specify the UM project in your job scripts `submit.sh`:
 
 ```{bash}
-BSUB -P um_dke
+sbatch submit.sh
 ```
 
 ## Storage
