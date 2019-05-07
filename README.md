@@ -20,11 +20,26 @@ ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 ## Usage
 
 * Check manual for commands [here](https://doc.itc.rwth-aachen.de/display/CC/Using+the+Batch+System)
+* Here an example `sbumit.sh` job script:
+
+```{bash}
+#!/bin/bash
+
+#SBATCH --job-name=cytoeffect_short
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem-per-cpu=4GB
+#SBATCH --time=01:00:00
+
+R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
+```
+
 * You need to specify the UM project in your job scripts `submit.sh`:
 
 ```{bash}
 sbatch submit.sh
 ```
+
 
 ## Storage
 
