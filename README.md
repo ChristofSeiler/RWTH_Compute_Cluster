@@ -40,6 +40,11 @@ R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 sbatch submit.sh
 ```
 
+* Check status (change `YOUR_USERNAME` to your username):
+
+```{bash}
+squeue -u YOUR_USERNAME
+```
 
 ## Storage
 
