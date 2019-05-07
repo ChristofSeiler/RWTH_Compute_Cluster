@@ -34,7 +34,7 @@ ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 R -e "rmarkdown::render('Reanalysis_Aghaeepour2017_Poisson.Rmd')"
 ```
 
-* You need to specify the UM project in your job scripts `submit.sh`:
+* To submit the script to the scheduler:
 
 ```{bash}
 sbatch submit.sh
