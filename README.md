@@ -46,6 +46,16 @@ sbatch submit.sh
 squeue -u YOUR_USERNAME
 ```
 
+## Example
+
+This example should take about 30 min. It will request one node with 8 cores for 1 hour.
+
+```{bash}
+git clone https://github.com/ChristofSeiler/blish_cytoeffect_tutorial.git
+cd blish_cytoeffect_tutorial
+sbatch submit.sh
+```
+
 ## Storage
 
 * Backed up: `$HOME`
