@@ -59,6 +59,7 @@ rpm2cpio ${RSTUDIO_VERSION}.rpm | cpio -idmv
 cd ..
 echo "export STUDIO_VERSION=$RSTUDIO_VERSION" >> .zprofile
 echo 'export PATH=$HOME/${RSTUDIO_VERSION}/usr/lib/rstudio-server/bin/pandoc:$PATH' >> .zprofile
+source .zprofile
 ```
 
 Now clone a repository and submit a job script. This example should take about 30 min. It will request one node with 8 cores for 1 hour.
