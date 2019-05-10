@@ -57,7 +57,7 @@ cd $RSTUDIO_VERSION
 wget https://download2.rstudio.org/server/centos6/x86_64/${RSTUDIO_VERSION}.rpm
 rpm2cpio ${RSTUDIO_VERSION}.rpm | cpio -idmv
 cd ..
-echo "export STUDIO_VERSION=$RSTUDIO_VERSION" >> .zprofile
+echo "export RSTUDIO_VERSION=$RSTUDIO_VERSION" >> .zprofile
 echo 'export PATH=$HOME/${RSTUDIO_VERSION}/usr/lib/rstudio-server/bin/pandoc:$PATH' >> .zprofile
 source .zprofile
 ```
