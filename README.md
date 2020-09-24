@@ -20,7 +20,7 @@ ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 ## Usage
 
 * Check manual for commands [here](https://doc.itc.rwth-aachen.de/display/CC/Using+the+Batch+System)
-* Here an example `sbumit.sh` job script:
+* Here an example `submit.sh` job script:
 
 ```{bash}
 #!/bin/bash
@@ -52,6 +52,7 @@ squeue -u YOUR_USERNAME
 First install RStudio. This will allow you to knit Rmd files.
 
 ```{bash}
+cd $HOME
 RSTUDIO_VERSION=rstudio-server-rhel-1.2.1335-x86_64
 mkdir $RSTUDIO_VERSION
 cd $RSTUDIO_VERSION
