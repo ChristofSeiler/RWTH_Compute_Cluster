@@ -174,13 +174,18 @@ sbatch jobscript.sh
 
 Which will generate a log file of the form `jupyter-notebook-12345.log` open this file which will include instructions on how to open the notebook on your laptop.
 
+
 Copy the line that specifies where **1111** will be a different port and **user** will be your Aachen user: 
+
+On your **local system**:
 
 ``` shell
 ssh -L8888:localhost:1111 user@login18-1.hpc.itc.rwth-aachen.de -N -4
 ```
 
 Then in your preferred browser simply go to [localhost:8888/](localhost:8888/)  
+
+On your **remote system**:
 
 To close the notebook run the following command by first substituting 12345 for the job number that was given to you after running `sbatch`:
 
@@ -198,3 +203,20 @@ For this we will use `rsync`:
 rsync -aP ~directory/ user@login18-1.hpc.itc.rwth-aachen.de:directory
 ```
 
+
+### Mounting remote drives to local system
+This functionality will allow mounting your drives on the Aachen cluster to your local system. Moving files and accessing it through GUI becomes much easier with this.
+Inspired by [this](https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh) 
+
+On your **local system**:
+You will need sshfs, For linux,
+```shell
+sudo apt-get install sshfs
+```
+For other operating systems, check Installing sshfs here: https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh 
+
+```
+sudo mkdir /mnt/dke #The /mnt/dke can be any path where you want to mount your remote drive
+sudo sshfs -o allow_other,default_permissions user@login18-1.hpc.itc.rwth-aachen.de:directory /mnt/dke
+```
+**user** above is your username and **directory** is the remote drive path you want to mount for example ```/home/user```
