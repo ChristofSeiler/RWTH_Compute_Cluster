@@ -10,7 +10,7 @@
 
 ## Login
 
-1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/display/VPN/VPN+%28ab+MacOS+10.7%29+AnyConnect)
+1. Establish VPN connection to Aachen following instructions [here](https://help.itc.rwth-aachen.de/en/service/vbf6fx0gom76/article/b2150305019c438c867663ab28307d87)
 2. Login with your new RWTH Aachen account: 
 
 ```bash
@@ -19,7 +19,7 @@ ssh <Your User ID>@login18-1.hpc.itc.rwth-aachen.de
 
 ## Usage
 
-* Check manual for commands [here](https://doc.itc.rwth-aachen.de/display/CC/Using+the+Batch+System)
+* Check manual for commands [here](https://help.itc.rwth-aachen.de/en/service/rhr4fjjutttf/article/13ace46cfbb84e92a64c1361e0e4c104)
 * Here an example `submit.sh` job script:
 
 ```{bash}
