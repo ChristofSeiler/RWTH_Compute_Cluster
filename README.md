@@ -10,7 +10,7 @@
 
 ## Login
 
-1. Establish VPN connection to Aachen following instructions [here](https://doc.itc.rwth-aachen.de/display/VPN/VPN+%28ab+MacOS+10.7%29+AnyConnect)
+1. Establish VPN connection to Aachen following instructions [here](https://help.itc.rwth-aachen.de/en/service/vbf6fx0gom76)
 2. Login with your new RWTH Aachen account: 
 
 ```bash
