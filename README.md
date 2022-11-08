@@ -2,7 +2,7 @@
 
 It seems that the Aachen cluster is no accessible to researchers and studetns form Maastricht University anymore. Try out the new Maastricht cluster:
 
-* [here](https://dsri.maastrichtuniversity.nl/docs/access-dsri/)
+* [DSRI](https://dsri.maastrichtuniversity.nl/docs/access-dsri/)
 
 ## Get Access
 
