@@ -1,6 +1,6 @@
 # RWTH Compute Cluster
 
-It seems that the Aachen cluster is not accessible to researchers and studetns form Maastricht University anymore. Try out the new Maastricht cluster:
+It seems that the Aachen cluster is not accessible to researchers and students form Maastricht University anymore. Try out the new Maastricht cluster:
 
 * [DSRI](https://dsri.maastrichtuniversity.nl/docs/access-dsri/)
 
